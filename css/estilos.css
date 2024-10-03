@@ -1,0 +1,274 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra superior */
+.top-bar {
+    background-color: #00a5a5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+/* Alinha os itens da esquerda */
+.top-bar .social-media, .top-bar .contact {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajusta o alinhamento para a esquerda */
+.top-bar .social-media {
+    flex: 1;
+}
+
+.top-bar .social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.top-bar .social-media a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Itens de contato */
+.top-bar .contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.top-bar .contact a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Navegação */
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Alinha o menu à direita */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00a5a5;
+}
+
+/* Seção principal */
+.centro {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+}
+
+.centro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.centro p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.centro button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.centro button:hover {
+    background-color: #555;
+}
+
+/* Imagem de fundo */
+.background-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-image img {
+    width: 100%;
+    display: block;
+}
+
+.p-sobre {
+	font-family: arial;
+	font-size: 40px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding-right: 90px;
+	padding-left: 60px;
+}
+.h1-sobre {
+	font-size: 64px;
+	text-align: center;
+	margin-right: 300px;
+}
+
+.foto-rafael {
+	text-align: center;
+	margin-right: 30px;
+}	
+
+.conteudo-sobre {
+	display: flex;
+}
+
+.h1-projetos {
+    font-size: 64px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.predio1 {
+    border-radius: 38px;
+    margin-left: 30px;
+}
+
+.predio2 {
+    border-radius: 38px;
+    margin-left: 30px;
+}
+
+.p-predio2 {
+    margin-left: 1050px;
+    font-size: 30px;
+
+}
+
+.predio3 {
+    border-radius: 38px;
+    margin-left: 800px;
+}
+
+.p-projetos {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.conteudo-servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.conteudo-opinioes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.quadro1 {
+    background-color: #f0f0f0;
+    width: 80%;
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.quadro2 {
+    background-color: #f0f0f0;
+    width: 80%;
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.quadro3 {
+    background-color: #f0f0f0;
+    width: 80%;justify
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.quadro4 {
+    background-color: #f0f0f0;
+    width: 80%; 
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.quadro5 {
+    background-color: #f0f0f0;
+    width: 80%;
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.quadro6 {
+    background-color: #f0f0f0;
+    width: 80%;
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: justify;
+    color: black;
+}
+
+.p-servicos {
+    font-size: 30px;
+}
+
+.p-opinioes {
+    font-size: 20px;
+}
